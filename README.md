@@ -8,7 +8,9 @@ Streaming consumer receives these message by iterating over the stream of RDDs
 
 #Run
 Producer
+
 java -classpath ./target/dependency-jars/*:./target/demo-1.0-SNAPSHOT.jar producer.MyProducer
 
 Consumer
+
 java -classpath ./target/dependency-jars/*:./target/sparkstreamingkafkademo-1.0-SNAPSHOT.jar receiver.KafkaDirect
